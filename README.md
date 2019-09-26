@@ -15,10 +15,34 @@ The data I propose to visualize for the [World Suicide Rate Data](https://gist.g
 
 I’ve created a proof of concept visualization of the suicide data. 
 
+
 ### Number of Suicide across Generation
 [![image](https://user-images.githubusercontent.com/44675613/65652215-0c629880-dfdf-11e9-8670-12cffcf1c114.png)](https://vizhub.com/chen-ding-71/742ec7bbdd254cf9af1145077584526f)
-
+  
 
 ### Suicide Versus Year and Age
 [![image](https://user-images.githubusercontent.com/44675613/65651599-e6d48f80-dfdc-11e9-9533-8adae8961efd.png)](https://vizhub.com/chen-ding-71/b04f132ee5aa42cab1642632f9418cae)
+
+
+## Questions & Tasks
+* Are there interesting spatial patterns in suicide distribution worldwide?
+* How can the economy influence suicide rate?
+* How can the human development index influence suicide rate?
+* How does the overall suicide rate vary over time, age and gender?
+
+## Sketches
+### Global Suicide Heat Map
+![image](https://user-images.githubusercontent.com/44675613/65652643-69ab1980-dfe0-11e9-9d81-1f28c3863353.png)
+
+### Suicide Versus Year, Age, Gender
+![image](https://user-images.githubusercontent.com/44675613/65652712-ac6cf180-dfe0-11e9-98c1-022af9db8f5c.png)
+
+### Suicide Versus HDI and GDP
+![image](https://user-images.githubusercontent.com/44675613/65652759-d9b99f80-dfe0-11e9-81c3-9b1c0a0ea2fa.png)
+
+## Open Questions
+* Due to the sampling method of the dataset, I am not sure what is the distribution of gender, age and country. If only fixed number of samples in each subgroups, the visualization of suicide versus Year, Age, Gender and Country will make no sense.
+
+* The geographic shapes in D3.js are new and challenging, I am not sure whether I can fill the color of each country by suicide density in a gradient shade.
+
 
