@@ -33,12 +33,17 @@ I’ve created a proof of concept visualization of the suicide data.
 ## Sketches
 ### Global Suicide Heat Map
 ![image](https://user-images.githubusercontent.com/44675613/65652643-69ab1980-dfe0-11e9-9d81-1f28c3863353.png)
+The heat map will show the suicide desentity in each country with gradient shades of color. When the audience click in each country, there will be a sum of suicide rate. There will be a button to control which year's data will be presented in the map, so that users can find have an intuitive look at the change of suicide rate by time and space.
 
 ### Suicide Versus Year, Age, Gender
 ![image](https://user-images.githubusercontent.com/44675613/65652712-ac6cf180-dfe0-11e9-98c1-022af9db8f5c.png)
 
+The stacked bar chart presents suicide rates changing versus year, age and gender. Users can easily find the trends of year, age, gender.
+
 ### Suicide Versus HDI and GDP
 ![image](https://user-images.githubusercontent.com/44675613/65652759-d9b99f80-dfe0-11e9-81c3-9b1c0a0ea2fa.png)
+
+The scatter plot can help researchers investigate the correlations between suicide rate and HDI, GDP. 
 
 ## Open Questions
 * Due to the sampling method of the dataset, I am not sure what is the distribution of gender, age and country. If only fixed number of samples in each subgroups, the visualization of suicide versus Year, Age, Gender and Country will make no sense.
