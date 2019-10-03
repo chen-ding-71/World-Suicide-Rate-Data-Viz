@@ -49,10 +49,17 @@ The heat map will show the suicide desentity in each country with gradient lumin
 
 The stacked bar chart presents suicide rates changing versus year, age and gender. Users can easily find the trends of year, age, gender.
 
+#### Interaction
+* When user click on bar, the detailed suicide number will be displayed in a small box.
+
 ### Suicide Versus HDI and GDP
 ![image](https://user-images.githubusercontent.com/44675613/65652759-d9b99f80-dfe0-11e9-81c3-9b1c0a0ea2fa.png)
 
 The scatter plot can help researchers investigate the correlations between suicide rate and HDI, GDP. 
+
+#### Interaction
+* When user click on circle, the detailed suicide number and economy data will be displayed in a small box.
+
 
 ## Open Questions
 * Due to the sampling method of the dataset, I am not sure what is the distribution of gender, age and country. If only fixed number of samples in each subgroups, the visualization of suicide versus Year, Age, Gender and Country will make no sense.
@@ -61,28 +68,28 @@ The scatter plot can help researchers investigate the correlations between suici
 
 ## Schedule of Deliverables
 
-* Step 1: Suicide Versus Country, Year, Age, Gender Bar Chart
+* **Step 1:** Suicide Versus Country, Year, Age, Gender Bar Chart
 
 **Due Date:** Oct 9
 
 **Estimated Time Cost:** 7 hours
 
 
-* Step 2: Global Suicide Heat Map
+* **Step 2:** Global Suicide Heat Map
 
 **Due Date:** Oct 19
 
 **Estimated Time Cost:** 10 hours
 
 
-* Step 3: Suicide Versus HDI and GDP Scatterplot
+* **Step 3:** Suicide Versus HDI and GDP Scatterplot
 
 **Due Date:** Oct 23
 
 **Estimated Time Cost:** 4 hours
 
 
-* Step 4: Integrate Viz into My Own Website and Summarize Insights 
+* **Step 4:** Integrate Viz into My Own Website and Summarize Insights 
 
 **Due Date:** Oct 30
 
