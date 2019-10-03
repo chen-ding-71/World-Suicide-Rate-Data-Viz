@@ -23,6 +23,10 @@ I’ve created a proof of concept visualization of the suicide data.
 ### Suicide Versus Year and Age
 [![image](https://user-images.githubusercontent.com/44675613/65651599-e6d48f80-dfdc-11e9-9533-8adae8961efd.png)](https://vizhub.com/chen-ding-71/b04f132ee5aa42cab1642632f9418cae)
 
+### Suicide Versus Country and Year
+[![image](https://user-images.githubusercontent.com/44675613/66099076-4c8fc100-e573-11e9-94fd-4ca09db59eef.png)](https://beta.vizhub.com/chen-ding-71/82c0a02d55f545c2be273f3d34f16e24)
+
+
 
 ## Questions & Tasks
 * Are there interesting spatial patterns in suicide distribution worldwide?
@@ -33,7 +37,12 @@ I’ve created a proof of concept visualization of the suicide data.
 ## Sketches
 ### Global Suicide Heat Map
 ![image](https://user-images.githubusercontent.com/44675613/65652643-69ab1980-dfe0-11e9-9d81-1f28c3863353.png)
-The heat map will show the suicide desentity in each country with gradient shades of color. When the audience click in each country, there will be a sum of suicide rate. There will be a button to control which year's data will be presented in the map, so that users can find have an intuitive look at the change of suicide rate by time and space.
+The heat map will show the suicide desentity in each country with gradient luminance of color. When the audience click in each country, there will be a sum of suicide rate. 
+
+#### Interaction
+* There will be a menu to control which year's data will be presented in the map, so that users can find have an intuitive look at the change of suicide rate by time and space.
+* When user click on one country, the detailed suicide number will be displayed in a small box.
+
 
 ### Suicide Versus Year, Age, Gender
 ![image](https://user-images.githubusercontent.com/44675613/65652712-ac6cf180-dfe0-11e9-98c1-022af9db8f5c.png)
@@ -49,5 +58,34 @@ The scatter plot can help researchers investigate the correlations between suici
 * Due to the sampling method of the dataset, I am not sure what is the distribution of gender, age and country. If only fixed number of samples in each subgroups, the visualization of suicide versus Year, Age, Gender and Country will make no sense.
 
 * The geographic shapes in D3.js are new and challenging, I am not sure whether I can fill the color of each country by suicide density in a gradient shade.
+
+## Schedule of Deliverables
+
+* Step 1: Suicide Versus Country, Year, Age, Gender Bar Chart
+
+**Due Date:** Oct 9
+
+**Estimated Time Cost:** 7 hours
+
+
+* Step 2: Global Suicide Heat Map
+
+**Due Date:** Oct 19
+
+**Estimated Time Cost:** 10 hours
+
+
+* Step 3: Suicide Versus HDI and GDP Scatterplot
+
+**Due Date:** Oct 23
+
+**Estimated Time Cost:** 4 hours
+
+
+* Step 4: Integrate Viz into My Own Website and Summarize Insights 
+
+**Due Date:** Oct 30
+
+**Estimated Time Cost:** 7 hours
 
 
