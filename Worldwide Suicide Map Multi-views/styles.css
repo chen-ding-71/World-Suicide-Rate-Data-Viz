@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+pre {
+  font-size: 7em;
+}
+.marks .land {
+  fill: #ececec;
+}
+.marks .sphere {
+  fill: #fbfbfb;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #d9dfe0;
+}
+.marks .graticules {
+  fill: none;
+  stroke: #ececec;
+}
+/* circle {
+  fill: #BD2D28;
+  opacity: 0.7;
+} */
+.dropdown-label {
+  font-size: 12pt;
+  margin-left: 100px;
+  margin-right: 15px;
+}

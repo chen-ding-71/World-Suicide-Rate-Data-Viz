@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+pre {
+  font-size: 7em;
+}
+.tick line {
+  stroke: #C0C0BB;
+}
+.tick text {
+  fill: #635F5D;
+}
+.mark {
+  fill: #E25A42;
+}
+
+.dropdown-label {
+  font-size: 1em;
+  fill: #635F5D;
+  color: #635F5D;
+}
+
+.axis-label {
+  font-size: 1em;
+  fill: #635F5D;
+  color: #635F5D;
+}
+
+.menus-container {
+  margin-top: 20px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-label {
+  margin-left: 100px;
+  margin-right: 15px;
+}
+.Dropdown-root {
+  font-size: 1em;
+  width: 300px;
+  display: inline-block;
+}
+.Dropdown-menu {
+  max-height: 400px;
+}
+.d3-tip {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19pt;
+  line-height: 1;
+  padding: 7px;
+  background: black;
+  color: lightgray;
+  border-radius: 20px;
+}
