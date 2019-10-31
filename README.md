@@ -8,91 +8,47 @@ Suicide prevention is a critical issue that may cause many social problems. Figu
 
 The data I propose to visualize for the [World Suicide Rate Data](https://gist.github.com/chen-ding-71/3e4e5c6a6f9248bdece950069e3d2aae) Visualization project are originated from 
 * World Health Organization: [suicide statistics](http://www.who.int/mental_health/suicide-prevention/en/)
-* World Bank: [economy statistics](http://databank.worldbank.org/data/source/world-development-indicators#)
-* United Nations Development Program: [human development index](http://hdr.undp.org/en/data)
-
-## Prototypes
-
-I’ve created a proof of concept visualization of the suicide data. 
 
 
-### Number of Suicide across Generation
-[![image](https://user-images.githubusercontent.com/44675613/65652215-0c629880-dfdf-11e9-8670-12cffcf1c114.png)](https://vizhub.com/chen-ding-71/742ec7bbdd254cf9af1145077584526f)
-  
+## Visualization
 
-### Suicide Versus Year and Age
-[![image](https://user-images.githubusercontent.com/44675613/65651599-e6d48f80-dfdc-11e9-9533-8adae8961efd.png)](https://vizhub.com/chen-ding-71/b04f132ee5aa42cab1642632f9418cae)
+### Worldwide Suicide Map Multi-views
 
-### Suicide Versus Country and Year
-[![image](https://user-images.githubusercontent.com/44675613/66099076-4c8fc100-e573-11e9-94fd-4ca09db59eef.png)](https://beta.vizhub.com/chen-ding-71/82c0a02d55f545c2be273f3d34f16e24)
+#### Discription
 
-
-
-## Questions & Tasks
-* Are there interesting spatial patterns in suicide distribution worldwide?
-* How can the economy influence suicide rate?
-* How can the human development index influence suicide rate?
-* How does the overall suicide rate vary over time, age and gender?
-
-## Sketches
-### Global Suicide Heat Map
-![image](https://user-images.githubusercontent.com/44675613/65652643-69ab1980-dfe0-11e9-9d81-1f28c3863353.png)
-The heat map will show the suicide desentity in each country with gradient luminance of color. When the audience click in each country, there will be a sum of suicide rate. 
+A world bubble map showing suicide data provided by World Health Organization that has drop down menus used to change the year and countries that you are interested in. Together with it, an interactive bar chart shows top 15 suicide countries that year.
+[![image](https://user-images.githubusercontent.com/44675613/67915085-5b649600-fb68-11e9-9a2b-9d5ea3b474e6.png)](https://beta.vizhub.com/chen-ding-71/4aaf4c8ffab748bfb821c3c2d8866d38)
 
 #### Interaction
-* There will be a menu to control which year's data will be presented in the map, so that users can find have an intuitive look at the change of suicide rate by time and space.
-* When user click on one country, the detailed suicide number will be displayed in a small box.
+* Dropdown: choose the data you are interested in by Dropdown Menu.
+* Tooltips: show detailed information of the bubble or bar if mouse is on
+* Highlight: the country you choose is highlighted in map
+* Filter and Sort: Everytime change the Year menu, the bar chart will display top 15 suicide country that year
+
+### US Suicide from 1979 to 2015 
+
+### Discription
+
+A stacked bar chart showing **Suicide Trend over Years and Gender in United States**.
+[![image](https://user-images.githubusercontent.com/44675613/67915307-feb5ab00-fb68-11e9-976e-1412aa913107.png)](https://beta.vizhub.com/chen-ding-71/4715333ce8964c4a9ba87de40e9b5bdb)
+
+### Interaction
+ * Hover over the bars for tool tips.
+ * Hover over the legend to highlight religions.
 
 
-### Suicide Versus Year, Age, Gender
-![image](https://user-images.githubusercontent.com/44675613/65652712-ac6cf180-dfe0-11e9-98c1-022af9db8f5c.png)
+## Data Source
+**Suicide data** from [Suicide Rates dataset](https://gist.github.com/chen-ding-71/3e4e5c6a6f9248bdece950069e3d2aae).
 
-The stacked bar chart presents suicide rates changing versus year, age and gender. Users can easily find the trends of year, age, gender.
+**Country boundary** from [World Atlas TopoJSON](https://github.com/topojson/world-atlas), polished for visual style, including graticules.
 
-#### Interaction
-* When user click on bar, the detailed suicide number will be displayed in a small box.
+**Country latitude and longitude** from [Dataset Publishing Language](developers.google.com/public-data/docs/canonical/countries_csv).
 
-### Suicide Versus HDI and GDP
-![image](https://user-images.githubusercontent.com/44675613/65652759-d9b99f80-dfe0-11e9-81c3-9b1c0a0ea2fa.png)
+## Insights
 
-The scatter plot can help researchers investigate the correlations between suicide rate and HDI, GDP. 
+* Male has higher suicide rate in US than female
+* Suicide Number increases over years in US
+* High Suicide Country: United States, Russia, Japan
 
-#### Interaction
-* When user click on circle, the detailed suicide number and economy data will be displayed in a small box.
-
-
-## Open Questions
-* Due to the sampling method of the dataset, I am not sure what is the distribution of gender, age and country. If only fixed number of samples in each subgroups, the visualization of suicide versus Year, Age, Gender and Country will make no sense.
-
-* The geographic shapes in D3.js are new and challenging, I am not sure whether I can fill the color of each country by suicide density in a gradient shade.
-
-## Schedule of Deliverables
-
-* **Step 1:** Suicide Versus Country, Year, Age, Gender Bar Chart
-
-**Due Date:** Oct 9
-
-**Estimated Time Cost:** 7 hours
-
-
-* **Step 2:** Global Suicide Heat Map
-
-**Due Date:** Oct 19
-
-**Estimated Time Cost:** 10 hours
-
-
-* **Step 3:** Suicide Versus HDI and GDP Scatterplot
-
-**Due Date:** Oct 23
-
-**Estimated Time Cost:** 4 hours
-
-
-* **Step 4:** Integrate Viz into My Own Website and Summarize Insights 
-
-**Due Date:** Oct 30
-
-**Estimated Time Cost:** 7 hours
 
 
