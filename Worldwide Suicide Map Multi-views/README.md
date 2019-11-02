@@ -1,6 +1,9 @@
 # Description
 A world bubble map showing suicide data provided by World Health Organization that has drop down menus used to change the year and countries that you are interested in. Together with it, an interactive bar chart shows top 15 suicide countries that year.
 
+# View
+https://chen-ding-71.github.io/World-Suicide-Rate-Data-Viz/
+
 # Interaction
 * Dropdown: choose the data you are interested in by Dropdown Menu.
 * Tooltips: show detailed information of the bubble or bar if mouse is on
