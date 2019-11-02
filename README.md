@@ -19,6 +19,10 @@ The data I propose to visualize for the [World Suicide Rate Data](https://gist.g
 A world bubble map showing suicide data provided by World Health Organization that has drop down menus used to change the year and countries that you are interested in. Together with it, an interactive bar chart shows top 15 suicide countries that year.
 [![image](https://user-images.githubusercontent.com/44675613/67915085-5b649600-fb68-11e9-9a2b-9d5ea3b474e6.png)](https://beta.vizhub.com/chen-ding-71/4aaf4c8ffab748bfb821c3c2d8866d38)
 
+#### Demo
+[Click Here](https://chen-ding-71.github.io/World-Suicide-Rate-Data-Viz/Worldwide%20Suicide%20Map%20Multi-views/index.html)
+
+
 #### Interaction
 * Dropdown: choose the data you are interested in by Dropdown Menu.
 * Tooltips: show detailed information of the bubble or bar if mouse is on
@@ -31,6 +35,10 @@ A world bubble map showing suicide data provided by World Health Organization th
 
 A stacked bar chart showing **Suicide Trend over Years and Gender in United States**.
 [![image](https://user-images.githubusercontent.com/44675613/67915307-feb5ab00-fb68-11e9-976e-1412aa913107.png)](https://beta.vizhub.com/chen-ding-71/4715333ce8964c4a9ba87de40e9b5bdb)
+
+### Demo
+
+[Click Here](https://chen-ding-71.github.io/World-Suicide-Rate-Data-Viz/US%20Suicide%20from%201979%20to%202015)
 
 ### Interaction
  * Hover over the bars for tool tips.
