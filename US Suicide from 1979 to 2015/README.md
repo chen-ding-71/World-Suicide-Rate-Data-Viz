@@ -1,6 +1,10 @@
 # Description
 A stacked bar chart showing **Suicide Trend over Years and Gender in United States**.
 
+# Demo
+[Click Here](https://chen-ding-71.github.io/World-Suicide-Rate-Data-Viz/US%20Suicide%20from%201979%20to%202015)
+
+
 # Interactions:
 
  * Hover over the bars for tool tips.
